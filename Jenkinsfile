@@ -3,7 +3,7 @@ agent any
 
 stages{
     stage{
-        steps{
+        steps(Checkout){
             git checkout scm
         }
     }
